@@ -1,78 +1,78 @@
 [
     {
-        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts与ADB_TurnlndicatorReq一致性（HIL）",
-        "precondition": "系统处于正常工作状态，HIL环境已设置。",
+        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为OFF时，ADB_TurnlndicatorReq等于BCM_TurnindicatorSts",
+        "precondition": "1. 系统处于正常工作状态。\n2. CAN总线上存在有效的BCM_TurnindicatorSts和ADB_TurnlndicatorReq信号。",
         "test_steps": [
             {
                 "step_number": 1,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为OFF。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于OFF。"
-            },
-            {
-                "step_number": 2,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Left On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于Left On。"
-            },
-            {
-                "step_number": 3,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Right On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于Right On。"
-            },
-            {
-                "step_number": 4,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Left and Right On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于Left and Right On。"
+                "description": "设置CAN总线信号BCM_TurnindicatorSts为OFF",
+                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于BCM_TurnindicatorSts，即也应为OFF"
             }
         ],
         "function_module": "转向灯控制功能模块",
         "linked_req": [
-            "42808",
+            "42808"
+        ]
+    },
+    {
+        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为Left On时，ADB_TurnlndicatorReq等于BCM_TurnindicatorSts",
+        "precondition": "1. 系统处于正常工作状态。\n2. CAN总线上存在有效的BCM_TurnindicatorSts和ADB_TurnlndicatorReq信号。",
+        "test_steps": [
+            {
+                "step_number": 1,
+                "description": "设置CAN总线信号BCM_TurnindicatorSts为Left On",
+                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于BCM_TurnindicatorSts，即也应为Left On"
+            }
+        ],
+        "function_module": "转向灯控制功能模块",
+        "linked_req": [
+            "42808"
+        ]
+    },
+    {
+        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为Right On时，ADB_TurnlndicatorReq等于BCM_TurnindicatorSts",
+        "precondition": "1. 系统处于正常工作状态。\n2. CAN总线上存在有效的BCM_TurnindicatorSts和ADB_TurnlndicatorReq信号。",
+        "test_steps": [
+            {
+                "step_number": 1,
+                "description": "设置CAN总线信号BCM_TurnindicatorSts为Right On",
+                "expected_result": "CAN总线信号ADB_TurnlndicatorReq应等于BCM_TurnindicatorSts，即也应为Right On"
+            }
+        ],
+        "function_module": "转向灯控制功能模块",
+        "linked_req": [
+            "42808"
+        ]
+    },
+    {
+        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为Left and Right On时，ADB_TurnlndicatorMode设置为Flash",
+        "precondition": "1. 系统处于正常工作状态。\n2. CAN总线上存在有效的BCM_TurnindicatorSts和ADB_TurnlndicatorMode信号。",
+        "test_steps": [
+            {
+                "step_number": 1,
+                "description": "设置CAN总线信号BCM_TurnindicatorSts为Left and Right On",
+                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应设置为Flash"
+            }
+        ],
+        "function_module": "转向灯控制功能模块",
+        "linked_req": [
             "42809",
             "42810"
         ]
     },
     {
-        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts对应的ADB_TurnlndicatorMode设置（HIL）",
-        "precondition": "系统处于正常工作状态，HIL环境已设置。",
+        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为*OFF、Left On、RightOn时，ADB_TurnlndicatorMode设置为Flowing",
+        "precondition": "1. 系统处于正常工作状态。\n2. CAN总线上存在有效的BCM_TurnindicatorSts和ADB_TurnlndicatorMode信号。",
         "test_steps": [
             {
                 "step_number": 1,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为OFF。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应等于Flowing。"
-            },
-            {
-                "step_number": 2,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Left On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应等于Flowing。"
-            },
-            {
-                "step_number": 3,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Right On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应等于Flowing。"
+                "description": "设置CAN总线信号BCM_TurnindicatorSts为*OFF、Left On、RightOn中的任一个值",
+                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应设置为Flowing"
             }
         ],
         "function_module": "转向灯控制功能模块",
         "linked_req": [
-            "42808",
-            "42809",
-            "42810"
-        ]
-    },
-    {
-        "test_case_name": "验证CAN总线信号BCM_TurnindicatorSts为Left and Right On时ADB_TurnlndicatorMode设置（HIL）",
-        "precondition": "系统处于正常工作状态，HIL环境已设置。",
-        "test_steps": [
-            {
-                "step_number": 1,
-                "description": "将CAN总线信号BCM_TurnindicatorSts设置为Left and Right On。",
-                "expected_result": "CAN总线信号ADB_TurnlndicatorMode应等于Flash。"
-            }
-        ],
-        "function_module": "转向灯控制功能模块",
-        "linked_req": [
-            "42808",
-            "42809",
-            "42810"
+            "42809"
         ]
     }
 ]
