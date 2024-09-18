@@ -1,0 +1,46 @@
+[
+    {
+        "标识": "42807",
+        "主文本": "转向灯控制",
+        "需求释放Planned Release": NaN,
+        "验证方法Verification Method": NaN,
+        "验证准则Verification Criteria": NaN,
+        "工件类型": "Heading",
+        "isHeading": "true",
+        "parentBinding": "6458",
+        "module": "6422"
+    },
+    {
+        "标识": "42808",
+        "主文本": "当CAN总线信号BCM_TurnindicatorSts为OFF、Left On、Right On、Left and RightOn'四个值中的任一个时,CAN总线信号ADB_TurnlndicatorReq应等于CAN总线信号BCM_TurnindicatorSts.",
+        "需求释放Planned Release": "АЗ",
+        "验证方法Verification Method": "HIL",
+        "验证准则Verification Criteria": NaN,
+        "工件类型": "Requirement",
+        "isHeading": "false",
+        "parentBinding": "42807",
+        "module": "6422"
+    },
+    {
+        "标识": "42809",
+        "主文本": "当CAN总线信号BCM_TurnlndicatorSts为*OFF、Left On、RightOn三个值中的任一个时,CAN总线信号ADB_TurnlndicatorMode=Flowing",
+        "需求释放Planned Release": "АЗ",
+        "验证方法Verification Method": "HIL",
+        "验证准则Verification Criteria": NaN,
+        "工件类型": "Requirement",
+        "isHeading": "false",
+        "parentBinding": "42807",
+        "module": "6422"
+    },
+    {
+        "标识": "42810",
+        "主文本": "当CAN总线信号BCM_TurnlndicatorSts=Left and Right On时,CAN总线信号ADB_TurnIndicatorMode =Flash",
+        "需求释放Planned Release": "АЗ",
+        "验证方法Verification Method": "HIL",
+        "验证准则Verification Criteria": NaN,
+        "工件类型": "Requirement",
+        "isHeading": "false",
+        "parentBinding": "42807",
+        "module": "6422"
+    }
+]
