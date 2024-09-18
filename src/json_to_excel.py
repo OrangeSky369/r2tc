@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-from config import Config
 
 def json_to_excel(json_file_path, excel_file_path):
     """
@@ -66,10 +65,3 @@ def json_to_excel(json_file_path, excel_file_path):
     # Write to Excel
     df.to_excel(excel_file_path, index=False, engine='openpyxl')
     print(f"Successfully converted {json_file_path} to {excel_file_path}")
-
-# if __name__ == "__main__":
-#     # Specify your input JSON file and output Excel file paths
-#     input_json = Config.TEST_CASES_JSON_PATH   # Replace with your JSON file path
-#     output_excel = Config.TEST_CASES_EXCEL_PATH # Replace with your desired Excel file path
-#
-#     json_to_excel(input_json, output_excel)

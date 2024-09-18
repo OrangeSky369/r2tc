@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文" />
+    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 上传了data文件夹">
+      <change afterPath="$PROJECT_DIR$/src/json_to_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726307424162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- 上传了data文件夹">
+      <option name="closed" value="true" />
+      <created>1726627534288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726627534288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +202,7 @@
     <MESSAGE value="requirements.xlsx to requirements.txt&#10;解决了xlsx后面的附加信息问题；&#10;extract出来的内容均为string&#10;为了json中的格式可读性，删除了主文本中的所有双引号" />
     <MESSAGE value="v0.2&#10;- 实现了使用langchain+ollama调用llm生成测试用例&#10;- 完成了最初版本的prompt&#10;- 解决了生成的test cases从string类型到JSON格式的转换问题&#10;- 完成了依赖库到langchain_ollama的迁移" />
     <MESSAGE value="v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文" />
+    <MESSAGE value="- 上传了data文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 上传了data文件夹" />
   </component>
 </project>
