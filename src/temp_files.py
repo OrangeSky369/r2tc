@@ -75,5 +75,3 @@ def process_test_case_generation(uploaded_file_path, selected_model):
     finally:
         pass
 
-
-process_test_case_generation('data/requirements.xlsx', 'glm4:latest')

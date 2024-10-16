@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 上传了data文件夹">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradio_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradio_server.py" afterDir="false" />
+    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 增加了临时文件夹的抛弃逻辑">
+      <change afterPath="$PROJECT_DIR$/src/temp_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/playground_mini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_sessions/aaf71605-17c2-4c8f-a8f3-c177641c4b25/requirements.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     "Python.playground.executor": "Run",
     "Python.playground_mini.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "7287fd87",
+    "git-widget-placeholder": "64f1905b",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -238,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726627534288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- 增加了临时文件夹的抛弃逻辑">
+      <option name="closed" value="true" />
+      <created>1729062846092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729062846092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +263,7 @@
     <MESSAGE value="v0.2&#10;- 实现了使用langchain+ollama调用llm生成测试用例&#10;- 完成了最初版本的prompt&#10;- 解决了生成的test cases从string类型到JSON格式的转换问题&#10;- 完成了依赖库到langchain_ollama的迁移" />
     <MESSAGE value="v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文" />
     <MESSAGE value="- 上传了data文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="- 上传了data文件夹" />
+    <MESSAGE value="- 增加了临时文件夹的抛弃逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 增加了临时文件夹的抛弃逻辑" />
   </component>
 </project>
