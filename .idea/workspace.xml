@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 上传了data文件夹">
-      <change afterPath="$PROJECT_DIR$/gradio_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_cases.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_cases.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_cases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradio_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradio_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/playground_mini.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7287fd87f75afd29ea2bba2441b6b3f820bf349a" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,8 +58,9 @@
     "Python.gradio_server.executor": "Run",
     "Python.main.executor": "Run",
     "Python.playground.executor": "Run",
+    "Python.playground_mini.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "7287fd87",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -65,7 +69,7 @@
       <recent name="D:\Work\tempFiles\20240827_r2tc\requirements-to-test-cases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gradio_server">
+  <component name="RunManager" selected="Python.playground">
     <configuration name="excel_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requirements-to-test-cases" />
       <option name="ENV_FILES" value="" />
@@ -132,6 +136,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="playground_mini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="requirements-to-test-cases" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground_mini.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requirements-to-test-cases" />
       <option name="ENV_FILES" value="" />
@@ -156,8 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gradio_server" />
         <item itemvalue="Python.playground" />
+        <item itemvalue="Python.playground_mini" />
+        <item itemvalue="Python.gradio_server" />
         <item itemvalue="Python.tool" />
         <item itemvalue="Python.excel_to_json" />
       </list>

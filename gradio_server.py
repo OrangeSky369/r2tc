@@ -5,9 +5,31 @@ import shutil
 from datetime import datetime
 import uuid
 
-# Import your tool's main function
-# Replace 'tool' and 'run_tool' with the actual module and function names if different
-from tool import run_tool  # Ensure that 'tool.py' is in the same directory or properly referenced
+from tool import run_tool
+
+def cleanup_oldest_folder(directory, max_folders=10):
+    """
+    Deletes the oldest folder in the specified directory if the number of folders exceeds max_folders.
+
+    Args:
+        directory (str): The path to the directory containing the folders.
+        max_folders (int): The maximum number of folders allowed in the directory.
+    """
+    try:
+        # List all folders in the directory
+        folders = [os.path.join(directory, folder) for folder in os.listdir(directory) if
+                   os.path.isdir(os.path.join(directory, folder))]
+
+        # Sort folders by creation time
+        folders.sort(key=lambda x: os.path.getctime(x))
+
+        # Delete the oldest folder if the number of folders exceeds max_folders
+        if len(folders) > max_folders:
+            shutil.rmtree(folders[0])
+            print(f"Deleted oldest folder: {folders[0]}")
+    except Exception as e:
+        print(f"An error occurred during cleanup: {str(e)}")
+
 
 def process_test_case_generation(uploaded_file_path, selected_model):
     """
@@ -21,6 +43,13 @@ def process_test_case_generation(uploaded_file_path, selected_model):
         tuple: A tuple containing the message log and the path to the generated Excel file.
     """
     try:
+        # Ensure the temporary sessions directory exists
+        temp_sessions_dir = "temp_sessions"
+        os.makedirs(temp_sessions_dir, exist_ok=True)
+
+        # Cleanup the oldest folder if necessary
+        cleanup_oldest_folder(temp_sessions_dir, max_folders=10)
+
         # Create a unique temporary directory for this session to avoid conflicts
         temp_dir = os.path.join("temp_sessions", str(uuid.uuid4()))
         os.makedirs(temp_dir, exist_ok=True)
@@ -42,12 +71,12 @@ def process_test_case_generation(uploaded_file_path, selected_model):
         config.MODEL_NAME = selected_model
 
         # Run the test case generation tool
-        messages = run_tool()  # Ensure that run_tool() returns log messages as a string
+        run_tool()  # Ensure that run_tool() returns log messages as a string
 
         # Check if the output file was created successfully
         if os.path.exists(test_cases_excel_path):
             # Provide the path to the generated Excel file for download
-            return messages, test_cases_excel_path
+            return test_cases_excel_path
         else:
             return "Error: Test cases Excel file was not created.", None
 
@@ -57,18 +86,8 @@ def process_test_case_generation(uploaded_file_path, selected_model):
 
     finally:
         # Optional: Implement cleanup logic here if needed
-        # For example, you can schedule deletion of old temp directories
         pass
 
-# Define the available LLM models
-AVAILABLE_MODELS = [
-    "glm4:latest",
-    "qwen2:latest",
-    "deepseek-v2:16b",
-    "gemma2:9b",
-    "llama3.1:latest",
-    "mistral:latest"
-]
 
 # Define the Gradio interface
 with gr.Blocks() as demo:
@@ -80,14 +99,15 @@ with gr.Blocks() as demo:
         file_input = gr.File(
             label="Upload Requirements Excel File",
             file_types=[".xlsx", ".xls"],
-            type="filepath"  # Changed from "file" to "filepath"
+            type="filepath"
         )
 
         # Dropdown for model selection
         model_dropdown = gr.Dropdown(
-            choices=AVAILABLE_MODELS,
-            value=AVAILABLE_MODELS[0],
-            label="Select LLM Model"
+            choices=config.AVAILABLE_MODELS,
+            value=config.AVAILABLE_MODELS[0],
+            label="Select LLM Model",
+            elem_id="model_dropdown"
         )
 
     # Button to trigger test case generation
@@ -96,7 +116,7 @@ with gr.Blocks() as demo:
     # Text box to display messages
     message_box = gr.Textbox(
         label="Messages",
-        lines=10,
+        lines=3,
         interactive=False
     )
 
@@ -115,7 +135,7 @@ with gr.Blocks() as demo:
     # Optional: Add some styling or additional information
     gr.Markdown("""
     ---
-    **Note:** Ensure that the uploaded Excel file follows the required format. If you encounter any issues, please check the messages above for more details.
+    **Note:** The uploaded Excel file follows the format of EML. If you encounter any issues, please check the messages above for more details.
     """)
 
 # Launch the Gradio interface
