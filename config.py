@@ -14,3 +14,11 @@ AVAILABLE_MODELS = [
     "llama3.1:latest",
     "mistral:latest"
 ]
+
+TEXT_REQUIREMENTS = ""
+
+SELECTED_METHODS = []
+
+CREATIVITY_LEVEL = ""
+
+FEW_SHOTS_JSON_PATH = './prompts/few_shots.json'

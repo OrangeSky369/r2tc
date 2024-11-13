@@ -5,7 +5,7 @@ import shutil
 from datetime import datetime
 import uuid
 
-from tool import run_tool
+from run_generation import run_tool
 from src.temp_files import process_test_case_generation
 
 # Define the Gradio interface

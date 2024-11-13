@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 优化了工程结构">
-      <change afterPath="$PROJECT_DIR$/temp_sessions/0fc2d531-7a46-4105-9c8a-fc80fb56b1a3/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/1385c765-51bf-4657-8c2c-936a9f6b5263/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/1807aa09-3303-4df1-a909-6318b197b671/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/28abd7ab-8d02-4ce5-87fa-bd172488ef7e/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/3a950dc5-6993-402e-8613-ccfb2dc839cf/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/6bbde2fa-1a9d-4e57-acab-6ed87f38e469/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/9ebb9cd1-d345-41b3-b111-fc25b5ad9d4d/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/a9fe23e5-c4af-4db5-91da-bd358629a65d/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/c86254e8-c3c5-4ff1-bc8c-70e58cfb5ca3/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/da240038-944e-4f77-9335-4d646ab00635/requirements.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp_sessions/f3bc7ad3-9a39-4d93-a11e-8a5dd3c823df/requirements.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prompts/few_shots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prompts/file_generation_prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prompts/text_generation_prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json_data_process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradio_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradio_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground_mini.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground_mini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generate_test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/llm_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temp_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/temp_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_generation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,46 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.excel_to_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gradio_server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground_mini.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;temp-branch&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.excel_to_json.executor": "Run",
+    "Python.gradio_server.executor": "Run",
+    "Python.gradio_server_File_Text.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.playground_mini.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\tempFiles\20240827_r2tc\requirements-to-test-cases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.playground">
-    <configuration name="excel_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="requirements-to-test-cases" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel_to_json.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.playground_mini">
     <configuration name="gradio_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requirements-to-test-cases" />
       <option name="ENV_FILES" value="" />
@@ -113,6 +92,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradio_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gradio_server_File_Text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="requirements-to-test-cases" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradio_server_File_Text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.playground" />
         <item itemvalue="Python.playground_mini" />
+        <item itemvalue="Python.gradio_server_File_Text" />
+        <item itemvalue="Python.playground" />
         <item itemvalue="Python.gradio_server" />
         <item itemvalue="Python.tool" />
-        <item itemvalue="Python.excel_to_json" />
       </list>
     </recent_temporary>
   </component>

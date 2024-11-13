@@ -1,0 +1,161 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0cab4c9f-9044-4fcd-bf6e-753e042136f8\" name=\"Changes\" comment=\"- 优化了工程结构\">\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/0fc2d531-7a46-4105-9c8a-fc80fb56b1a3/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/1385c765-51bf-4657-8c2c-936a9f6b5263/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/1807aa09-3303-4df1-a909-6318b197b671/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/28abd7ab-8d02-4ce5-87fa-bd172488ef7e/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/3a950dc5-6993-402e-8613-ccfb2dc839cf/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/6bbde2fa-1a9d-4e57-acab-6ed87f38e469/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/9ebb9cd1-d345-41b3-b111-fc25b5ad9d4d/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/a9fe23e5-c4af-4db5-91da-bd358629a65d/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/c86254e8-c3c5-4ff1-bc8c-70e58cfb5ca3/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/da240038-944e-4f77-9335-4d646ab00635/requirements.xlsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/temp_sessions/f3bc7ad3-9a39-4d93-a11e-8a5dd3c823df/requirements.xlsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"7287fd87f75afd29ea2bba2441b6b3f820bf349a\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;OrangeSky369&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/OrangeSky369/r2tc.git&quot;,\r\n    &quot;accountId&quot;: &quot;63cb5523-dc1f-45bd-9612-00611ff04e96&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lYHDzlvIGFjHuUenxFO6JDefa0\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.excel_to_json.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.gradio_server.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.playground.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.playground_mini.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;temp-branch&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Work\\tempFiles\\20240827_r2tc\\requirements-to-test-cases\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.playground\">\r\n    <configuration name=\"excel_to_json\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"requirements-to-test-cases\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/excel_to_json.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"gradio_server\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"requirements-to-test-cases\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/gradio_server.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"playground\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"requirements-to-test-cases\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/playground.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"playground_mini\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"requirements-to-test-cases\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/playground_mini.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"tool\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"requirements-to-test-cases\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"D:\\Work\\tempFiles\\20240827_r2tc\\requirements-to-test-cases\\tool.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.playground\" />\r\n        <item itemvalue=\"Python.playground_mini\" />\r\n        <item itemvalue=\"Python.gradio_server\" />\r\n        <item itemvalue=\"Python.tool\" />\r\n        <item itemvalue=\"Python.excel_to_json\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0cab4c9f-9044-4fcd-bf6e-753e042136f8\" name=\"Changes\" comment=\"\" />\r\n      <created>1725349975525</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725349975525</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"requirements.xlsx to requirements.txt&#10;解决了xlsx后面的附加信息问题；&#10;extract出来的内容均为string&#10;为了json中的格式可读性，删除了主文本中的所有双引号\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725417528913</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725417528913</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"v0.2&#10;- 实现了使用langchain+ollama调用llm生成测试用例&#10;- 完成了最初版本的prompt&#10;- 解决了生成的test cases从string类型到JSON格式的转换问题&#10;- 完成了依赖库到langchain_ollama的迁移\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725610600606</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725610600606</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726307424162</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726307424162</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"- 上传了data文件夹\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726627534288</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726627534288</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"- 增加了临时文件夹的抛弃逻辑\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729062846092</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729062846092</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"- 优化了工程结构\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729063575186</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729063575186</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"requirements.xlsx to requirements.txt&#10;解决了xlsx后面的附加信息问题；&#10;extract出来的内容均为string&#10;为了json中的格式可读性，删除了主文本中的所有双引号\" />\r\n    <MESSAGE value=\"v0.2&#10;- 实现了使用langchain+ollama调用llm生成测试用例&#10;- 完成了最初版本的prompt&#10;- 解决了生成的test cases从string类型到JSON格式的转换问题&#10;- 完成了依赖库到langchain_ollama的迁移\" />\r\n    <MESSAGE value=\"v0.2.1&#10;- 增加了输出需求链接的功能&#10;- 优化了提示词，确保了输出用例为中文\" />\r\n    <MESSAGE value=\"- 上传了data文件夹\" />\r\n    <MESSAGE value=\"- 增加了临时文件夹的抛弃逻辑\" />\r\n    <MESSAGE value=\"- 优化了工程结构\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"- 优化了工程结构\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9abcd77ef533995a5fa476a6d17600c1e3b50edb)
++++ b/.idea/workspace.xml	(date 1730795161572)
+@@ -4,19 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- 优化了工程结构">
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/0fc2d531-7a46-4105-9c8a-fc80fb56b1a3/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/1385c765-51bf-4657-8c2c-936a9f6b5263/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/1807aa09-3303-4df1-a909-6318b197b671/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/28abd7ab-8d02-4ce5-87fa-bd172488ef7e/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/3a950dc5-6993-402e-8613-ccfb2dc839cf/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/6bbde2fa-1a9d-4e57-acab-6ed87f38e469/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/9ebb9cd1-d345-41b3-b111-fc25b5ad9d4d/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/a9fe23e5-c4af-4db5-91da-bd358629a65d/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/c86254e8-c3c5-4ff1-bc8c-70e58cfb5ca3/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/da240038-944e-4f77-9335-4d646ab00635/requirements.xlsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/temp_sessions/f3bc7ad3-9a39-4d93-a11e-8a5dd3c823df/requirements.xlsx" afterDir="false" />
++    <list default="true" id="0cab4c9f-9044-4fcd-bf6e-753e042136f8" name="Changes" comment="- commit temp-branch">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/gradio_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradio_server.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/playground_mini.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground_mini.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/temp_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/temp_files.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,7 +26,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="7287fd87f75afd29ea2bba2441b6b3f820bf349a" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -62,12 +55,14 @@
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+     &quot;Python.excel_to_json.executor&quot;: &quot;Run&quot;,
++    &quot;Python.gradio_server (1).executor&quot;: &quot;Run&quot;,
++    &quot;Python.gradio_server(1).executor&quot;: &quot;Run&quot;,
+     &quot;Python.gradio_server.executor&quot;: &quot;Run&quot;,
+     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+     &quot;Python.playground.executor&quot;: &quot;Run&quot;,
+     &quot;Python.playground_mini.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;temp-branch&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+   }
+ }</component>
+@@ -76,8 +71,8 @@
+       <recent name="D:\Work\tempFiles\20240827_r2tc\requirements-to-test-cases" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.playground">
+-    <configuration name="excel_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.gradio_server(1)">
++    <configuration name="gradio_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="requirements-to-test-cases" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -86,11 +81,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/excel_to_json.py" />
++      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/gradio_server.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -121,7 +116,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="gradio_server(1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="requirements-to-test-cases" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -130,11 +125,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground.py" />
++      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/gradio_server(1).py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -143,7 +138,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="playground_mini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="requirements-to-test-cases" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -156,7 +151,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground_mini.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -165,7 +160,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="playground_mini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="requirements-to-test-cases" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -178,7 +173,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="D:\Work\tempFiles\20240827_r2tc\requirements-to-test-cases\tool.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground_mini.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -189,11 +184,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.playground" />
++        <item itemvalue="Python.gradio_server(1)" />
++        <item itemvalue="Python.gradio_server (1)" />
+         <item itemvalue="Python.playground_mini" />
+         <item itemvalue="Python.gradio_server" />
+-        <item itemvalue="Python.tool" />
+-        <item itemvalue="Python.excel_to_json" />
++        <item itemvalue="Python.playground" />
+       </list>
+     </recent_temporary>
+   </component>

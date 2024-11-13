@@ -3,7 +3,7 @@ import shutil
 import uuid
 from datetime import datetime
 import config
-from tool import run_tool
+from run_generation import run_tool
 
 
 def cleanup_oldest_folder(directory, max_folders=10):

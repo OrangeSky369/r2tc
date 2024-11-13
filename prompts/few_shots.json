@@ -1,0 +1,24 @@
+{
+    "等价类": [
+        {
+            "example_name": "输入为1到10的整数。",
+            "example_description": "Step 1: 输入5，预期输出为合法。\nStep 2: 输入11，预期输出为非法。"
+        },
+        {
+            "example_name": "输入为a到z的字符。",
+            "example_description": "Step 1: 输入'b'，预期输出为合法。\nStep 2: 输入'1'，预期输出为非法。"
+        }
+    ],
+    "边界值": [
+        {
+            "example_name": "近光灯开启后，当车速大于等于40km/h时，进入自动远光模式。",
+            "example_description": "前置条件：开启近光灯，且车速为0km/h。\nStep 1: 调整车速为39km/h，预期结果为车辆未进入自动远光模式。\nStep 2: 调整车速为40km/h，预期结果为车辆进入自动远光模式。"
+        }
+    ],
+    "故障注入": [
+        {
+            "example_name": "用户登录功能。",
+            "example_description": "Step 1: 用户名为空，密码正确，预期输出为登录失败。\nStep 2: 用户名正确，密码为空，预期输出为登录失败。"
+        }
+    ]
+}

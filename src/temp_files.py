@@ -1,9 +1,8 @@
 import os
 import shutil
 import uuid
-from datetime import datetime
 import config
-from tool import run_tool
+from run_generation import run_generation_from_file, run_generation_from_text
 
 
 def cleanup_oldest_folder(directory, max_folders=10):
@@ -30,19 +29,25 @@ def cleanup_oldest_folder(directory, max_folders=10):
         print(f"An error occurred during cleanup: {str(e)}")
 
 
+def temp_folder_creation():
+    # Ensure the temporary sessions directory exists
+    temp_sessions_dir = "temp_sessions"
+    os.makedirs(temp_sessions_dir, exist_ok=True)
+
+    # Cleanup the oldest folder if necessary
+    cleanup_oldest_folder(temp_sessions_dir, max_folders=10)
+
+    # Create a unique temporary directory for this session to avoid conflicts
+    temp_dir = os.path.join(temp_sessions_dir, str(uuid.uuid4()))
+    os.makedirs(temp_dir, exist_ok=True)
+
+    return temp_dir
+
+
 # Example usage in process_test_case_generation function
-def process_test_case_generation(uploaded_file_path, selected_model):
+def process_test_case_generation_file(uploaded_file_path, selected_model):
     try:
-        # Ensure the temporary sessions directory exists
-        temp_sessions_dir = "temp_sessions"
-        os.makedirs(temp_sessions_dir, exist_ok=True)
-
-        # Cleanup the oldest folder if necessary
-        cleanup_oldest_folder(temp_sessions_dir, max_folders=10)
-
-        # Create a unique temporary directory for this session to avoid conflicts
-        temp_dir = os.path.join(temp_sessions_dir, str(uuid.uuid4()))
-        os.makedirs(temp_dir, exist_ok=True)
+        temp_dir = temp_folder_creation()
 
         # Define paths based on the temporary directory
         requirements_excel_path = os.path.join(temp_dir, os.path.basename(uploaded_file_path))
@@ -61,7 +66,7 @@ def process_test_case_generation(uploaded_file_path, selected_model):
         config.MODEL_NAME = selected_model
 
         # Run the test case generation tool
-        # run_tool()
+        run_generation_from_file()
 
         # Check if the output file was created successfully
         if os.path.exists(test_cases_excel_path):
@@ -75,3 +80,31 @@ def process_test_case_generation(uploaded_file_path, selected_model):
     finally:
         pass
 
+
+# this function must contain all the input parameters on UI
+def process_test_case_generation_text(text_requirements, list_methods, creativity_level, selected_model):
+    try:
+        temp_dir = temp_folder_creation()
+
+        # Define paths based on the temporary directory
+        test_cases_json_path = os.path.join(temp_dir, "test_cases.json")
+        test_cases_excel_path = os.path.join(temp_dir, "test_cases.xlsx")
+
+        # Update config.py parameters
+        config.TEST_CASES_JSON_PATH = test_cases_json_path
+        config.TEST_CASES_EXCEL_PATH = test_cases_excel_path
+        config.MODEL_NAME = selected_model
+        config.TEXT_REQUIREMENTS = text_requirements
+        config.SELECTED_METHODS = list_methods
+        config.CREATIVITY_LEVEL = creativity_level
+
+        # Run the test case generation tool
+        str_test_cases = run_generation_from_text()
+
+        return "Test cases have been successfully generated.", str_test_cases, test_cases_excel_path
+
+    except Exception as e:
+        return f"An error occurred: {str(e)}", None, None
+
+    finally:
+        pass
